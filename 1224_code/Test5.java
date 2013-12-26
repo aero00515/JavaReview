@@ -14,7 +14,7 @@ class Test5 {
 		list1[2] = 2;
 
 		for (int i = 0; i < list2.length; i++) {
-			System.out.print(list2[i] + " ");
+			System.out.print("list2[" + i + "]: " + list2[i] + " ");
 		}
 		System.out.println();
 	}
